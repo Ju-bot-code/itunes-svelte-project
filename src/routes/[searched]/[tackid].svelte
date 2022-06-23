@@ -13,7 +13,7 @@
 <script>
     import {goto} from '$app/navigation';
   export let song;
-  console.log(song);
+//   console.log(song);
     
 </script>
 
@@ -25,6 +25,6 @@
     </audio>
     <button on:click="{goto(`/artist/${song.artistId}`)}">
 <!-- https://itunes.apple.com/lookup?id=${song.artistid}` -->
-        <h2 class=" font-thin text-white"> @{song.artistName}</h2>
+        <h2 class=" font-thin text-white">@{song.artistName}</h2>
     </button>
 </div>

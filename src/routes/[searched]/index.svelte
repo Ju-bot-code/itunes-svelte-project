@@ -40,7 +40,7 @@
             <div class="col-span-3 ">
                 <p class="flex text-opacity-70 justify-center space-x-3 items-center  text-white">Loading..</p>
             </div>
-            {:else}
+            <!-- {:else}
             <div class="col-span-3 ">
                 <p class="flex text-opacity-70 justify-center space-x-3 items-center  text-white ">
                     <span> no results found..!</span>
@@ -48,7 +48,7 @@
                         <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM7 9a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0zm-7.536 5.879a1 1 0 001.415 0 3 3 0 014.242 0 1 1 0 001.415-1.415 5 5 0 00-7.072 0 1 1 0 000 1.415z" clip-rule="evenodd" />
                     </svg>
                 </p>
-            </div>
+            </div> -->
             {/if}
             
         {/each}
